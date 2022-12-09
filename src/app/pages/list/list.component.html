@@ -1,0 +1,65 @@
+<div class="container mt-4">
+  <div class="d-flex justify-content-between">
+    <div> Todo List</div>
+    <div>
+      <button class="btn btn-primary" routerLink="/todo">add</button>
+    </div>
+  </div>
+  <table class="table">
+    <thead>7
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">State</th>
+      <th scope="col">Title</th>
+      <th scope="col">Create Date</th>
+<!--      <th scope="col">Expiration Time</th>-->
+      <th scope="col">Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="group"><td>group</td></tr>
+<!--    <ng-container *ngFor="let todo of todos">-->
+<!--      <tr [ngClass]="{-->
+<!--      complete: todo.status === 'completed'-->
+<!--      }">-->
+<!--        <th>{{todo.id}}</th>-->
+<!--        <td>{{todo.title}}</td>-->
+<!--        <td>{{todo.status}}</td>-->
+<!--        <td>{{todo?.responsiblePerson?.fullName}}</td>-->
+<!--        <td>{{todo.createdAt | date:'dd.mm.yyyy'}}</td>-->
+<!--        <td>-->
+<!--          <button class="btn btn-success" (click)="changeStatus(todo.id)">Complete</button>-->
+<!--          <button class="btn btn-primary" routerLink="/todo/edit/{{todo.id}}">Edit</button>-->
+<!--          <button class="btn btn-danger" (click)="delete(todo.id)">Delete</button>-->
+<!--        </td>-->
+<!--      </tr>-->
+<!--    </ng-container>-->
+    </tbody>
+  </table>
+</div>
+
+<div class="container mt-4">
+  <div class="d-flex justify-content-between">
+    <div>Mission accomplished List</div>
+  </div>
+  <table class="table">
+    <tbody>
+    <!--    <ng-container *ngFor="let todo of todos">-->
+    <!--      <tr [ngClass]="{-->
+    <!--      complete: todo.status === 'completed'-->
+    <!--      }">-->
+    <!--        <th>{{todo.id}}</th>-->
+    <!--        <td>{{todo.title}}</td>-->
+    <!--        <td>{{todo.status}}</td>-->
+    <!--        <td>{{todo?.responsiblePerson?.fullName}}</td>-->
+    <!--        <td>{{todo.createdAt | date:'dd.mm.yyyy'}}</td>-->
+    <!--        <td>-->
+    <!--          <button class="btn btn-success" (click)="changeStatus(todo.id)">Complete</button>-->
+    <!--          <button class="btn btn-primary" routerLink="/todo/edit/{{todo.id}}">Edit</button>-->
+    <!--          <button class="btn btn-danger" (click)="delete(todo.id)">Delete</button>-->
+    <!--        </td>-->
+    <!--      </tr>-->
+    <!--    </ng-container>-->
+    </tbody>
+  </table>
+</div>
